@@ -1,3 +1,18 @@
 welcome to git commands training
 
 test
+
+
+git status
+This command returns the current state of the repository.
+git status will return the current working branch. If a file is in the staging area, but not committed, it shows with git status. Or, if there are no changes it’ll return nothing to commit, working directory clean.
+
+Usage:
+$ git status 
+
+In Practice:
+# Message when no change
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+
